@@ -93,7 +93,7 @@ html {
     scroll-behavior: smooth;
 }
 
-body { background: var(--eerie-black) }
+body { background: var(--eerie-black); height: 200vh; }
 
 body.active { overflow: hidden; }
 
