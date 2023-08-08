@@ -464,7 +464,9 @@ body.active { overflow: hidden; }
     pointer-events: all;
 }
 
-/*HERO*/
+    /*--------------------------*\
+    *HERO*
+    \*--------------------------*/
 
 .hero {
     background: url("../images/hero-bg.jpg") no-repeat;
@@ -493,7 +495,9 @@ body.active { overflow: hidden; }
 .hero-title > strong { color: var(--citrine); }
 
 
-/*UPCOMING*/
+    /*--------------------------*\
+    *HEADER*
+    \*--------------------------*/
 
 .upcoming {
     background: url("../images/upcoming-bg.png") no-repeat;
@@ -530,3 +534,7 @@ body.active { overflow: hidden; }
     min-width: 100%;
     scroll-snap-align: start;
 }
+
+    /*--------------------------*\
+    *SERVICE*
+    \*--------------------------*/
