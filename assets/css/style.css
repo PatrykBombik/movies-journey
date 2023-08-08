@@ -611,6 +611,8 @@ body.active { overflow: hidden; }
 
 .service-text { margin-bottom: 40px; }
 
+.service-list > li { padding: 20px; }
+
 .service-list > li:first-child {
     padding: 20px;
     border-bottom: 1px dashed hsla(0, 0%, 100%, 0.1);
@@ -652,6 +654,7 @@ body.active { overflow: hidden; }
 .top-rated .filter-list {
     gap: 15px;
     margin-bottom: 50px;
+    margin-top: 30px;
 }
 
 .top-rated .filter-btn {
@@ -685,3 +688,16 @@ body.active { overflow: hidden; }
 .top-rated .filter-btn:focus::before { left: 0; }
 
 .top-rated .filter-btn:focus::after { right: 0; }
+
+    /*--------------------------*\
+    *TV SERIES*
+    \*--------------------------*/
+
+.tv-series {
+    background: url("../images/tv-series-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-block: var(--section-padding);
+}
+
+.tv-series .section-title { margin-bottom: 50px; }
